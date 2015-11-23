@@ -1,0 +1,54 @@
+/*COLOR PALLETTE:
+red: #990000;
+dark red:#550000;
+green: #009900;
+dark green: #005500;
+yelow: #eeee08;
+bronze: #999900;
+*/
+
+/*UNIVERSAL*/
+html{width:960px; margin:10px auto; padding:15px;}
+body{font-size:16px; line-height:24px;}
+#main-content h1{line-height:30px; font-style:italic; text-decoration:underline; color:#009900;}
+#mainNav{text-align:right;}
+#mainNav a{margin:5px 10px; text-decoration:none; font-family:Arial; color:#005500; padding:5px; border-radius:100px; -moz-border-radius:100px; -o-border-radius:100px; -webkit-border-radius:100px;}
+#mainNav a:hover{border-left:2px solid #990000; border-right:2px solid #990000; margin:5px 8px; color:#550000;}
+.northAmerica,.southAmerica,.centralAmerica,.spain,.italy,.mali,.ethiopia{display:none;}
+
+/*HOME PAGE*/
+.home-content h1{font-size:42px;}
+.home-content .subheading{font-size:24px;}
+#homeContent div{display:inline-block; vertical-align:middle;}
+.home-content .all-photos{width:600px; height:350px;}
+.home-content .all-photos td{border:2px solid #999900;}
+.main-text-insert{width:300px; font-size:20px; text-align:right; font-family:arial; color:#005500;}
+.sideNav{width:200px; font-size:16px;}
+.sideNav p{text-align:center; font-size:20px; margin:0 5px; font-weight:bold; border-bottom:1px solid #550000;
+color:#550000;}
+.sideNavTier1{list-style:none; font-size:18px; color:#999900; text-transform:uppercase;}
+.sideNavTier2{list-style:none; font-size:14px; color:#005500; text-transform:capitalize;}
+
+/*ABOUT*/
+
+
+/*ARCHITECTURE*/
+#architectContent div{display:inline-block; vertical-align:top;}
+.architect-content .photoTable{margin-left:20px; margin-top:-20px;}
+.architect-content .photoTable th{height:10px; font-size:22px; color:#005500;}
+.architect-content .all-photos{width:700px; height:450px;}
+.architect-content .all-photos td{border:2px solid #999900;}
+
+/*CUISINE*/
+#cuisineContent div{display:inline-block; vertical-align:top;}
+.cuisine-content .photoTable{margin-left:20px; margin-top:-20px;}
+.cuisine-content .photoTable th{height:10px; font-size:22px; color:#999900;}
+.cuisine-content .all-photos{width:700px; height:450px;}
+.cuisine-content .all-photos td{border:2px solid #005500;}
+
+/*CULTURAL*/
+#cultureContent div{display:inline-block; vertical-align:top;}
+.culture-content .photoTable{margin-left:20px; margin-top:-20px;}
+.culture-content .photoTable th{height:10px; font-size:22px; color:#009900;}
+.culture-content .all-photos{width:700px; height:450px;}
+.culture-content .all-photos td{border:2px solid #550000;}
